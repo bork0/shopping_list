@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:image" content="images/og_image.jpg">
+    <meta property="og:description" content="Shopping list" />
+    <meta name="author" content="borko24">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container_fluid">
+        <div class="header_div">
+            <div class="choose_list">
+                <h2>Shopping List:</h2>
+                <div class="input-group">
+                    <select class="custom-select" id="inputGroupSelect04">
+                        <option selected>Choose...</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-warning" type="button" id="showOnMainHub">Show</button>
+                    </div>
+                </div>
+            </div>
+            <div class="new_list">
+                <input type="text" class="form-control" placeholder="New list" id="new_list_name">
+                <button type="button" class="btn btn-dark" id="add_list">Add New</button>
+            </div>
+        </div>
+        <div class="mainHub">
+            <div class="list_container">
+                <div class="main_list_div">
+                    <div class="list_header">
+                        <h1 id="list_main"></h1>
+                        <button type="button" class="btn btn-warning " aria-label="Left Align" id="add_item_amount">
+                                <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="labels">
+                            <p><span>Amount:</span></p>
+                            <p><span>Item:</span></p>
+                    </div>
+                </div>
+                <div class="existing_list">
+                </div>
+                <div class="creation_list">
+                    <div class="base_creation">
+                        <input type="text" class="form-control key" placeholder="Item" name="item">
+                        <input type="text" class="form-control value" placeholder="Amount" name="amount">
+                    </div>
+                </div>
+                <div class="buttons_main_hub">
+                    <button class="btn btn-warning" type="button" id="finish">Finish</button>
+                    <button type="button" class="btn btn-danger" id="delete_list">Delete</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+    <script src="https://use.fontawesome.com/5e3c6fab98.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/styling.js"></script>
+</body>
+</html>

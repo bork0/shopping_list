@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro&display=swap');
+
+html {
+    background-color: #f8f9fa;
+}
+
+body {
+        font-family: 'Advent Pro', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.header_div {
+    background-color: #f8f9fa;
+    padding: 5% 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_div h2 {
+    font-size: 30px;
+}
+
+.custom-select:focus, .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+#inputGroupSelect04, #new_list_name {
+    width: 20vw;
+    background-color: #f8f9fa;
+    margin-right: 5px;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning:focus-within, .btn-warning:visited
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, 
+.show > .btn-warning.dropdown-toggle  {
+    box-shadow: none;
+    background-color: #ffc107;
+}
+
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark:focus-within, .btn-dark:visited
+.btn-dark:not(:disabled):not(.disabled).active, .btn-dark:not(:disabled):not(.disabled):active, 
+.show > .btn-dark.dropdown-toggle  {
+    box-shadow: none;
+    background-color: #343a40;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger:focus-within, .btn-danger:visited
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, 
+.show > .btn-danger.dropdown-toggle  {
+    box-shadow: none;
+    background-color: #dc3545;
+}
+
+#new_list_name {
+    margin-top: 6.8px;
+}
+
+.new_list {
+    display: flex;
+    align-items: flex-end;
+}
+
+.mainHub {
+    background-color: #f8f9fa;
+}
+
+.list_container {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ced4da;
+    padding: 2%;
+}
+
+.main_list_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.labels {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.labels p span {
+    border-bottom: 2px solid #ffc107;
+}
+
+.creation_list, .existing_list {
+    flex-wrap: wrap;
+}
+
+.item_amount_paragraph, .base_creation, .labels, .creation_list, .existing_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.base_creation input:first-child,
+.item_amount_paragraph p:last-child,
+.labels p:last-child {
+    width: 69%;
+}
+
+.base_creation input:last-child,
+.item_amount_paragraph p:first-child,
+.labels p:first-child {
+    width: 24%;
+}
+
+.buttons_main_hub {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
